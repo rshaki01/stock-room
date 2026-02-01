@@ -1,9 +1,16 @@
 import React from 'react'
+import RevenueChart from '../ui/dashboard/revenue-chart'
+import LatestInvoices from '../ui/dashboard/latest-invoices'
+import { lusitana } from '../ui/fonts'
 
-const page = () => {
+export default function Page() {
   return (
-    <div>Dashboard page</div>
-  )
+    <main>
+      <h1 className='mb-4 text-xl md:text-2x1'>
+        Dashboard
+      </h1>
+
+    </main>
+  );
 }
 
-export default page
